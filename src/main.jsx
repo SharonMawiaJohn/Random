@@ -3,8 +3,6 @@ import App from './App.jsx'
 import NavBar from './NavBar.jsx'
 createRoot(document.getElementById('root')).render(
   <routes>
-    <NavBar />
     <App />
-    
   </routes>,
 )
