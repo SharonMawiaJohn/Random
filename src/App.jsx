@@ -1,6 +1,7 @@
-function App(){
-  return <h1>My Name is Sharon</h1>
+import NavBar from './components/NavBar.jsx'
 
-}
+const App = () => {
+  return <div><NavBar /></div>
+  }
 
 export default App;
